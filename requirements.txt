@@ -1,0 +1,11 @@
+# --- Core libraries for the A4 Hair Transplant Photo Sheet Generator ---
+
+customtkinter>=5.2.0     # modern dark-mode UI
+pillow>=10.0.0           # image loading, scaling, saving
+rembg>=2.0.50            # AI background removal
+numpy>=1.24.0            # required by rembg
+reportlab>=4.0.0         # PDF export
+tkinterdnd2>=0.4.0       # drag & drop support
+
+# rembg needs an ONNX runtime to run the AI model on the CPU.
+onnxruntime>=1.16.0
